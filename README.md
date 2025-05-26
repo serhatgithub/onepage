@@ -6,24 +6,24 @@ Bu proje, **AytiTech DevOps Bootcamp** kapsamında geliştirilmiştir. Amaç, st
 
 ---
 
-## 🔹 **Proje Özeti**
+##  **Proje Özeti**
 
-### ✅ Hazır Portföy Kurulumu
+### Hazır Portföy Kurulumu
 - GitHub’daki `onepage` şablonu klonlandı.
 - Web sitesi yerel Linux makinede servis edildi.
 
-### ✅ AWS Altyapı Yapılandırması
+### AWS Altyapı Yapılandırması
 - EC2 instancelara **EBS diski** eklendi.
 - Statik IP’ye sahip yeni bir **Network Interface** oluşturuldu.
 - **Route Table** ayarlanarak yönlendirme yapıldı.
 
-### ✅ Disk Biçimlendirme ve Montaj
+### Disk Biçimlendirme ve Montaj
 - EBS diski tek partition olarak biçimlendirildi.
 - `/var/www/html` dizinine `systemd` ile otomatik mount edildi.
 
 ---
 
-## 🔹 **Otomasyon Script İşlevi**
+## **Otomasyon Script İşlevi**
 
 Yazılan Bash script aşağıdaki işlemleri gerçekleştirdi:
 
@@ -43,13 +43,13 @@ Yazılan Bash script aşağıdaki işlemleri gerçekleştirdi:
 
 ---
 
-## 🔹 **Crontab ile Otomasyon**
+## **Crontab ile Otomasyon**
 
 - Script `crontab` ile belirli aralıklarla çalışacak şekilde zamanlandı.
 
 ---
 
-## 🔹 **Git İş Akışı ve İşbirliği**
+## **Git İş Akışı ve İşbirliği**
 
 - Arkaplan resmi değişikliği için **yeni branch** oluşturuldu.
 - Değişiklikler push edilip **Pull Request** açıldı.
@@ -58,14 +58,14 @@ Yazılan Bash script aşağıdaki işlemleri gerçekleştirdi:
 
 ---
 
-## 🔹 **Web Sunucusu Yapılandırması**
+## **Web Sunucusu Yapılandırması**
 
 - **Apache (httpd)** kurulup yapılandırıldı.
 - Yerel IP ile sayfaya erişim sağlandı.
 
 ---
 
-## 📌 **Kullanılan Teknolojiler**
+## **Kullanılan Teknolojiler**
 
 | Araç | Amaç |
 |------|------|
@@ -84,24 +84,24 @@ This project was developed as part of the **AytiTech DevOps Bootcamp**. The main
 
 ---
 
-## 🔹 **Project Overview**
+## **Project Overview**
 
-### ✅ Ready-Made Portfolio Setup
+### Ready-Made Portfolio Setup
 - Cloned a pre-built portfolio template (`onepage`) from GitHub.
 - Served the website locally on a Linux machine.
 
-### ✅ AWS Infrastructure Setup
+### AWS Infrastructure Setup
 - Attached an additional **EBS volume** to an EC2 instance.
 - Created and assigned a new **Network Interface** with a static IP address.
 - Configured **Route Table** to enable proper access.
 
-### ✅ Disk Partitioning & Mounting
+### Disk Partitioning & Mounting
 - Formatted the EBS volume into a single partition.
 - Mounted it to `/var/www/html` using a `systemd` unit file for persistent access.
 
 ---
 
-## 🔹 **Automation Script Functionality**
+## **Automation Script Functionality**
 
 A Bash script was written to handle:
 
@@ -121,13 +121,13 @@ A Bash script was written to handle:
 
 ---
 
-## 🔹 **Crontab Automation**
+## **Crontab Automation**
 
 - The script was scheduled using `crontab` to run at defined intervals for continuous synchronization and update.
 
 ---
 
-## 🔹 **Git Workflow and Collaboration**
+## **Git Workflow and Collaboration**
 
 - Created a **new branch** to update the background image.
 - Pushed changes and opened a **Pull Request** on GitHub.
@@ -136,14 +136,14 @@ A Bash script was written to handle:
 
 ---
 
-## 🔹 **Web Server Configuration**
+## **Web Server Configuration**
 
 - Installed and configured **Apache (httpd)**.
 - Verified website accessibility using the machine’s local IP address.
 
 ---
 
-## 📌 **Technologies Used**
+## **Technologies Used**
 
 | Tool | Purpose |
 |------|---------|
